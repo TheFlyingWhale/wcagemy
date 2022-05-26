@@ -1,4 +1,4 @@
-![WCAGemy Logo](https://github.com/TheFlyingWhale/wcagemy/blob/main/public/logo192.png);
+![WCAGemy Logo](https://github.com/TheFlyingWhale/wcagemy/blob/main/public/logo192.png)
 
 # WCAGemy
 
