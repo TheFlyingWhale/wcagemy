@@ -1,0 +1,5 @@
+.chapterMenuMain {
+    display: flex;
+    flex-flow: column;
+    gap: 25px;
+}

@@ -1,0 +1,58 @@
+:root {
+    --color-transparent: rgba(0, 0, 0, 0);
+
+    --color-black: #252525;
+    --color-blackLight: #2d2d2d;
+
+    --color-white: #ffffff;
+    --color-darkWhite: #fafafa;
+
+    --color-grayDarker: #414141;
+    --color-grayDark: #616161;
+    --color-gray: #818181;
+    --color-grayLight: #919191;
+    --color-grayLighter: #b3b3b3;
+
+    --color-blueBlack: #0c193a;
+    --color-blueDarker: #1b3882;
+    --color-blueDark: #244bad;
+    --color-blue: #3064e7;
+    --color-blueLight: #5983ec;
+    --color-blueLighter: #9bb5f4;
+
+    --color-redDarker: #89151a;
+    --color-redDark: #b71c22;
+    --color-red: #f4262d;
+    --color-redLight: #f65157;
+    --color-redLighter: #fa979a;
+
+    --color-greenDarker: #0f730c;
+    --color-greenDark: #149a10;
+    --color-green: #1bcd16;
+    --color-greenLight: #49d745;
+    --color-greenLighter: #92e78f;
+}
+
+.c-black {
+    color: var(--color-black);
+}
+
+.c-white {
+    color: var(--color-white);
+}
+
+.c-blueDarker {
+    color: var(--color-blueDarker);
+}
+
+.c-red {
+    color: var(--color-red);
+}
+
+.c-green {
+    color: var(--color-green);
+}
+
+.c-greenDark {
+    color: var(--color-greenDark);
+}

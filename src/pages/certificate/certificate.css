@@ -1,0 +1,31 @@
+.certificate {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+}
+
+.detailContainer {
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+}
+
+.headerPage {
+    flex-grow: 0;
+}
+
+.certificateMain {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.certificateContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: fit-content;
+}

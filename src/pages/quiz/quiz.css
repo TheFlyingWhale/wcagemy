@@ -1,0 +1,23 @@
+.quiz {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quizMain {
+    display: flex;
+    flex-flow: column;
+    gap: 25px;
+    flex-grow: 1;
+}
+
+.answerBox {
+    border-radius: 10px;
+    background-color: var(--color-black);
+    padding: 15px;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 25px;
+}

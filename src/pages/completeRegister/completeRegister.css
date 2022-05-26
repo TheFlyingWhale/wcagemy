@@ -1,0 +1,17 @@
+.completeRegister {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.completeRegisterHeader {
+    display: flex;
+    flex-grow: 0;
+}
+
+.completeRegisterMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}

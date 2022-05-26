@@ -1,0 +1,115 @@
+:root {
+    --font-size-small: calc((16 / 16) * 1rem); /* 16px */
+    --font-size-default: calc((18 / 16) * 1rem); /* 18px */
+    --font-size-medium: calc((20.25 / 16) * 1rem); /* 20.25px */
+    --font-size-large: calc((22.78 / 16) * 1rem); /* 22.78px */
+    --font-size-xLarge: calc((25.63 / 16) * 1rem); /* 25.63px */
+    --font-size-huge: calc((28.83 / 16) * 1rem); /* 28.83px */
+    --font-size-giant: calc((32.44 / 16) * 1rem); /* 32.44px */
+}
+
+.fw-normal {
+    font-weight: 400;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-semiBold {
+    font-weight: 600;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+.ff-overpass {
+    font-family: Overpass;
+}
+
+.ff-heebo {
+    font-family: Heebo;
+}
+
+.fs-small {
+    font-size: var(--font-size-small) !important;
+}
+
+.fs-default {
+    font-size: var(--font-size-default) !important;
+}
+
+.fs-medium {
+    font-size: var(--font-size-medium) !important;
+}
+
+.fs-large {
+    font-size: var(--font-size-large) !important;
+}
+
+.fs-xLarge {
+    font-size: var(--font-size-xLarge) !important;
+}
+
+.fs-huge {
+    font-size: var(--font-size-huge) !important;
+}
+
+.fs-giant {
+    font-size: var(--font-size-giant) !important;
+}
+
+.ta-center {
+    text-align: center;
+}
+
+.body {
+    line-height: 150%;
+}
+
+.linkDecoration {
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: Overpass;
+    src: url("../assets/fonts/Overpass-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Overpass;
+    src: url("../assets/fonts/Overpass-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Overpass;
+    src: url("../assets/fonts/Overpass-SemiBold.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Overpass;
+    src: url("../assets/fonts/Overpass-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Heebo;
+    src: url("../assets/fonts/Heebo-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Heebo;
+    src: url("../assets/fonts/Heebo-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Heebo;
+    src: url("../assets/fonts/Heebo-Bold.ttf");
+    font-weight: 700;
+}

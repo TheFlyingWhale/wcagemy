@@ -1,0 +1,34 @@
+.chapterContainer {
+    border-radius: 5px;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.chapterHeader {
+    background-color: var(--color-blueDarker);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px;
+}
+
+.chapterBody {
+    display: flex;
+    flex-flow: column;
+    gap: 25px;
+    padding: 15px;
+    background-color: var(--color-white);
+}
+
+.displayBody {
+    height: fit-content;
+}
+
+.hideBody {
+    height: 0px;
+    padding: 0px;
+}
+
+.arrowHide {
+    transform: rotate(180deg);
+}

@@ -1,0 +1,22 @@
+.quizAlternative {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+
+    border: 2px solid var(--color-blueDarker);
+    border-radius: 5px;
+
+    background-color: var(--color-white);
+}
+
+.incorrect {
+    border-color: var(--color-red);
+    background-color: var(--color-redLighter);
+}
+
+.correct {
+    border-color: var(--color-green);
+    background-color: var(--color-greenLighter);
+}

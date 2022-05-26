@@ -1,0 +1,18 @@
+.iconButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconAndChildren {
+    display: flex;
+    align-items: center;
+}
+
+.withoutArrow {
+    justify-content: center;
+}
+
+.rightAlignment {
+    justify-content: space-between;
+}

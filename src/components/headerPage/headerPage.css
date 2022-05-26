@@ -1,0 +1,9 @@
+.headerPageGrid {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.titleArea {
+    display: flex;
+    justify-content: center;
+}

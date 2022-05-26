@@ -1,0 +1,19 @@
+const DownArrow = ({ className = "" }) => {
+    return (
+        <svg
+            className={className}
+            width="14"
+            height="8"
+            viewBox="0 0 14 8"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <path
+                d="M1.645 0L7 4.94467L12.355 0L14 1.52227L7 8L0 1.52227L1.645 0Z"
+                fill="white"
+            />
+        </svg>
+    );
+};
+
+export default DownArrow;

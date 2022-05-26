@@ -1,0 +1,16 @@
+.subChapter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    border: 2px solid var(--color-blueDarker);
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: var(--color-blueDarker);
+    background-color: var(--color-white);
+}
+
+.completed {
+    background-color: var(--color-greenLighter);
+}
