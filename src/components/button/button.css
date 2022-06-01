@@ -10,6 +10,8 @@ button {
 
     display: flex;
     justify-content: center;
+
+    transition: 0.25s;
 }
 
 button > svg {
