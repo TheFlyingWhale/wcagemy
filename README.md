@@ -3,3 +3,9 @@
 # WCAGemy
 
 MVP of a concept to help people learn WCAG
+
+## Run application
+To see the developed application run the following command.
+```
+$ npm start
+```
